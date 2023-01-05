@@ -1,0 +1,152 @@
+body{
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Supermercado One', cursive;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(92, 92, 92);
+}
+
+
+h1 ,h2 , h3, h4 , h5 , h6{
+    margin: 0;
+}
+
+.section {
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+} 
+
+.header{
+    width: 100%;
+    max-width: 1600px;
+    z-index: 1;
+    height: 150px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(209, 250, 250);
+}
+.header a{
+    color:rgb(1, 15, 170); 
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.headertitle{
+    width: 30%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    align-items: center;
+    font-size: 17px;
+    color: rgb(1, 15, 170);
+  
+}
+.color{
+    color: rgb(0, 0, 0);
+}
+
+.color:hover{
+    color:rgb(1, 15, 170); ;
+}
+.logo{
+    width: 50%;
+    width: 400px;
+    height: 150px;
+    z-index: 0;
+}
+
+.logo img{
+    width: 100%;
+
+}
+
+
+.mainholder{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.newsholder{
+    /* position: sticky; */
+	top: 100px;
+	width:100%; 
+	height:600px;
+	overflow:auto;
+	overflow-y: auto;
+	overflow-x: auto;    /* show scroll only if we need them */
+ 	padding: 5px;
+     padding-bottom: 100px;
+/*  
+ 	white-space: nowrap; */
+
+}
+.comments{
+    background-color: aliceblue;
+    width: 50%;
+}
+.comments p{
+    word-wrap: normal;
+    white-space: wrap;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.descrip{
+    margin-left: 50px;
+    width: 80%;
+    height: 100px;
+}
+
+
+.newstitle{
+    margin-left: 100px;
+    background-color: aqua;
+}
+.newscomm{
+    /* position: sticky; */
+    
+    width: 100%;
+    height: 200px;
+    overflow: auto;
+    overflow-y: auto;
+    overflow-x: auto;
+    padding: 5px;
+    padding-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+footer{
+    background-color:rgb(209, 250, 250);
+}
