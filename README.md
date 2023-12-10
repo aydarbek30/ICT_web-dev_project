@@ -1,4 +1,5 @@
-# ICT_site_project
-project for ICT subject, actually Arman helped with it, but still.
+# ICT final project
+project for ICT subject.
 
-Site has database for user who sign up and all project is idea of WSP (KBTU)
+Site has database for users who sign up.
+All project is idea of WSP (KBTU).
